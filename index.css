@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Bahnschrift Condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+/*Box settings*/
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mot{
+    background-color:  hsl(0, 0%, 95%);
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+.box{
+    box-sizing: border-box;
+    width: 20rem;
+    padding: 4.3rem;
+}
+.sedans{
+    background-color:  hsl(31, 77%, 52%);
+}
+.suv{
+    background-color:  hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+.grab{
+    background-color: rgb(52, 47, 75);
+    display: flex;
+    flex-wrap: wrap;
+    width: 60rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+/*Font settings*/
+h1{
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+p{
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.attribution { 
+    font-size: 11px;
+    margin: 0px auto;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+.btn{
+    font-weight: bold;
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+/*button settings*/
+.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background-color: rgb(218, 216, 216);
+}
